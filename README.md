@@ -6,7 +6,10 @@
  your group. 
 
  All of the text across all of the initial files uses the same group of
- variables to allow for easy search and replace. They are listed here.
+ variables to allow for easy search and replace. They are listed below.
+
+ Example sed command: `sed -i '' 's/{{PROJECT_GROUP}}/Inline ASM/g' ./**/*.md`
+ *Note* the `-i ''` is important as it is required on some platforms e.g. macOS
 
  * {{PROJECT_GROUP}} -> The display name of your group e.g. "Inline ASM".
  * {{PROJECT_GROUP_SLUG}} -> The url slug name of your group used for
