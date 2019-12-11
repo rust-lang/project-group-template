@@ -31,9 +31,9 @@
  relevant links to information about your group.
 -->
 
-Welcome the repository for the {{PROJECT_GROUP}}! This is the repository we use to
-organise our work. Please refer to our [charter] for more information on our
-goals and our current scope.
+Welcome the repository for the {{PROJECT_GROUP}} Project Group! This is the
+repository we use to organise our work. Please refer to our [charter] for more
+information on our goals and current scope.
 
 [charter]: ./CHARTER.md
 
