@@ -25,6 +25,7 @@
  like: https://img.shields.io/badge/status-archived-grey.svg
 -->
 ![project group status: active](https://img.shields.io/badge/status-active-brightgreen.svg)
+[![project group documentation](https://img.shields.io/badge/MDBook-View%20Documentation-blue)][gh-pages]
 
 
 **FIX ME**
