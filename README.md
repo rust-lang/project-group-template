@@ -3,7 +3,7 @@
  This is the template for creating project groups in rust-lang. Be sure to go
  through all sections marked with `**FIX ME**`, and make sure that the text is
  correct, and feel free to replace/remove any part that's not relevant to
- your group. 
+ your group.
 
  All of the text across all of the initial files uses the same group of
  variables to allow for easy search and replace. They are listed below.
@@ -13,7 +13,7 @@
 
  * {{PROJECT_GROUP}} -> The display name of your group e.g. "Inline ASM".
  * {{PROJECT_GROUP_SLUG}} -> The url slug name of your group used for
-   `rust-lang/team` e.g. "pg-inline-asm".
+   `rust-lang/team` and repo name. e.g. "pg-inline-asm".
  * {{CHAT_PLATFORM}} -> The name of your chat app e.g. "Zulip".
  * {{CHAT_LINK}} -> The hyperlink to your discussions on the chat app
    e.g. "https://rust-lang.zulipchat.com/#narrow/stream/216763-project-inline-asm".
@@ -35,10 +35,12 @@
 -->
 
 Welcome the repository for the {{PROJECT_GROUP}} Project Group! This is the
-repository we use to organise our work. Please refer to our [charter] for more
-information on our goals and current scope.
+repository we use to organise our work. Please refer to our [charter] as well
+as our [github pages website][gh-pages] for more information on our goals and
+current scope.
 
 [charter]: ./CHARTER.md
+[gh-pages]: https://rust-lang.github.io/{{PROJECT_GROUP_SLUG}}
 
 **/FIX ME**
 
@@ -59,7 +61,7 @@ information on our goals and current scope.
 on `rust-lang/team`.][team-toml]
 
 If you'd like to participate be sure to check out any of our [open issues] on this
-repository. 
+repository.
 
 We also participate on [{{CHAT_PLATFORM}}][chat-link], feel free to introduce
 yourself over there and ask us any questions you have.
@@ -71,3 +73,10 @@ yourself over there and ask us any questions you have.
 
 **/FIX ME**
 
+## Building Documentation
+This repository is also an mdbook project. You can view and build it using the
+following command.
+
+```
+mdbook serve
+```
