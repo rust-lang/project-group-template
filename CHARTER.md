@@ -1,4 +1,4 @@
-# {{PROJECT_GROUP}} Charter
+# {{GROUP_NAME}} Charter
 <!--
  Provide an introduction summarising the goals and motivation behind your
  project group.
