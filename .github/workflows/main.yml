@@ -16,5 +16,5 @@ jobs:
       - uses: XAMPPRocky/deploy-mdbook@v1
         with:
           repository: rust-lang/project-group-template
-          token: ${{ secrets.GITHUB_DEPLOY_KEY }}
+          token: ${{ secrets.GITHUB_TOKEN }}
         if: github.ref == 'refs/heads/master'
