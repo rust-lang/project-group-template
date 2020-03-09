@@ -14,6 +14,7 @@ jobs:
           mkdir book/
           touch book/.nojekyll
       - uses: XAMPPRocky/deploy-mdbook@v1
-        env:
-          GITHUB_DEPLOY_KEY: ${{ secrets.GITHUB_DEPLOY_KEY }}
+        with:
+          repository: rust-lang/project-group-template
+          token: ${{ secrets.GITHUB_DEPLOY_KEY }}
         if: github.ref == 'refs/heads/master'
