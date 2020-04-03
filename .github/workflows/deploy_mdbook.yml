@@ -2,7 +2,6 @@ on:
   push:
     branches:
       - master
-  pull_request:
 
 jobs:
   ci:
@@ -10,11 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          mkdir book/
-          touch book/.nojekyll
       - uses: XAMPPRocky/deploy-mdbook@v1
         with:
-          repository: rust-lang/project-group-template
           token: ${{ secrets.GITHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
