@@ -35,7 +35,7 @@
  relevant links to information about your group.
 -->
 
-Welcome the repository for the {{GROUP_NAME}} Project Group! This is the
+Welcome to the repository for the {{GROUP_NAME}} Project Group! This is the
 repository we use to organise our work. Please refer to our [charter] as well
 as our [github pages website][gh-pages] for more information on our goals and
 current scope.
